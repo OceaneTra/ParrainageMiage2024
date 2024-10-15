@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
+Route::get('resources\views\components\acceuil.blade.php', function () {
+    return view('accueil');
 })->name("Accueil");
